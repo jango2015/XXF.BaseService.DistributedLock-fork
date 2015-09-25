@@ -1,1 +1,4 @@
-#Dyd.DistributedLock
+##.net分布式锁
+包括redis锁和zookeeper锁的.net实现。 
+分布式锁在解决分布式环境下的业务一致性是非常有用的。
+本开源实现用于研究和完善
