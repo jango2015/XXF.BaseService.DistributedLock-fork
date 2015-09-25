@@ -1,0 +1,9 @@
+zookeeper:
+http://ju.outofmemory.cn/entry/75844
+http://www.ibm.com/developerworks/cn/opensource/os-cn-zookeeper/
+http://www.oschina.net/code/snippet_255033_20334
+
+/*
+因架构统一方面考虑，暂时以redis分布式锁为主。zookeeper分布式锁在未来集成。
+zookeeper分布式锁性能理论上应该比redis分布式锁性能高很多。
+*/

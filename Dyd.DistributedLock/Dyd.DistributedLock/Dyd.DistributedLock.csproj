@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{496D1198-09D6-49F6-8DC6-CCCABFE4AC85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dyd.DistributedLock</RootNamespace>
+    <AssemblyName>Dyd.DistributedLock</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DistributedLock\DistributedLockDemo.cs" />
+    <Compile Include="DistributedLock\DistributedLockHelper.cs" />
+    <Compile Include="DistributedLock\RedisLock\BaseRedisDistributedLock.cs" />
+    <Compile Include="DistributedLock\RedisLock\RedisDistributedLock.cs" />
+    <Compile Include="DistributedLock\RedisLock\RedisDistributedLockFromJava.cs" />
+    <Compile Include="DistributedLock\RedisLock\RedisDistributedLockFromServiceStack.cs" />
+    <Compile Include="DistributedLock\RedisLock\RedisLoadBalance.cs" />
+    <Compile Include="DistributedLock\SystemRuntime\DistributedLockConfig.cs" />
+    <Compile Include="DistributedLock\SystemRuntime\DistributedLockException.cs" />
+    <Compile Include="DistributedLock\SystemRuntime\Enums.cs" />
+    <Compile Include="DistributedLock\ZooKeeperLock\ZooKeeprDistributedLock.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DistributedLock\RedisLock\redis分布式锁资料.txt" />
+    <Content Include="DistributedLock\ZooKeeperLock\ZooKeeper分布式锁资料.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>引用\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>引用\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>引用\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>引用\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="XXF">
+      <HintPath>引用\XXF.dll</HintPath>
+    </Reference>
+    <Reference Include="ZooKeeperNet">
+      <HintPath>引用\ZooKeeperNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\Dyd.DistributedLock.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\Dyd.DistributedLock.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\ServiceStack.Common.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\ServiceStack.Interfaces.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\ServiceStack.Redis.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\ServiceStack.Text.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\XXF.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\ZooKeeperNet.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\System.Net.Http.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\System.Net.Http.xml
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\obj\Debug\Dyd.DistributedLock.dll
+c:\users\administrator\documents\visual studio 2012\Projects\Dyd.DistributedLock\Dyd.DistributedLock\obj\Debug\Dyd.DistributedLock.pdb
