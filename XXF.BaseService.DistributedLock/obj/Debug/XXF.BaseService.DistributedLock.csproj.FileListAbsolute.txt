@@ -1,0 +1,27 @@
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\XXF.BaseService.DistributedLock.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\XXF.BaseService.DistributedLock.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Common.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Interfaces.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Redis.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Text.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\XXF.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\ZooKeeperNet.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\System.Net.Http.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\System.Net.Http.xml
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\obj\Debug\XXF.BaseService.DistributedLock.dll
+c:\users\administrator\documents\visual studio 2012\Projects\XXF.BaseService.DistributedLock\XXF.BaseService.DistributedLock\obj\Debug\XXF.BaseService.DistributedLock.pdb
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\XXF.BaseService.DistributedLock.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\XXF.BaseService.DistributedLock.pdb
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Common.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Interfaces.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Redis.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\ServiceStack.Text.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\XXF.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\ZooKeeperNet.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\System.Net.Http.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\System.Net.Http.xml
+F:\git-distributedlock\XXF.BaseService.DistributedLock\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\obj\Debug\XXF.BaseService.DistributedLock.csprojResolveAssemblyReference.cache
+F:\git-distributedlock\XXF.BaseService.DistributedLock\obj\Debug\XXF.BaseService.DistributedLock.dll
+F:\git-distributedlock\XXF.BaseService.DistributedLock\obj\Debug\XXF.BaseService.DistributedLock.pdb

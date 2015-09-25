@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{496D1198-09D6-49F6-8DC6-CCCABFE4AC85}</ProjectGuid>
+    <ProjectGuid>{F1B19AA6-B15E-4715-B61F-C9CBD10FB559}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dyd.DistributedLock</RootNamespace>
-    <AssemblyName>Dyd.DistributedLock</AssemblyName>
+    <RootNamespace>XXF.BaseService.DistributedLock</RootNamespace>
+    <AssemblyName>XXF.BaseService.DistributedLock</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -35,21 +35,21 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DistributedLock\DistributedLockDemo.cs" />
-    <Compile Include="DistributedLock\DistributedLockHelper.cs" />
-    <Compile Include="DistributedLock\RedisLock\BaseRedisDistributedLock.cs" />
-    <Compile Include="DistributedLock\RedisLock\RedisDistributedLock.cs" />
-    <Compile Include="DistributedLock\RedisLock\RedisDistributedLockFromJava.cs" />
-    <Compile Include="DistributedLock\RedisLock\RedisDistributedLockFromServiceStack.cs" />
-    <Compile Include="DistributedLock\RedisLock\RedisLoadBalance.cs" />
-    <Compile Include="DistributedLock\SystemRuntime\DistributedLockConfig.cs" />
-    <Compile Include="DistributedLock\SystemRuntime\DistributedLockException.cs" />
-    <Compile Include="DistributedLock\SystemRuntime\Enums.cs" />
-    <Compile Include="DistributedLock\ZooKeeperLock\ZooKeeprDistributedLock.cs" />
+    <Compile Include="DistributedLockDemo.cs" />
+    <Compile Include="DistributedLockHelper.cs" />
+    <Compile Include="RedisLock\BaseRedisDistributedLock.cs" />
+    <Compile Include="RedisLock\RedisDistributedLock.cs" />
+    <Compile Include="RedisLock\RedisDistributedLockFromJava.cs" />
+    <Compile Include="RedisLock\RedisDistributedLockFromServiceStack.cs" />
+    <Compile Include="RedisLock\RedisLoadBalance.cs" />
+    <Compile Include="SystemRuntime\DistributedLockConfig.cs" />
+    <Compile Include="SystemRuntime\DistributedLockException.cs" />
+    <Compile Include="SystemRuntime\Enums.cs" />
+    <Compile Include="ZooKeeperLock\ZooKeeprDistributedLock.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DistributedLock\RedisLock\redis分布式锁资料.txt" />
-    <Content Include="DistributedLock\ZooKeeperLock\ZooKeeper分布式锁资料.txt" />
+    <Content Include="RedisLock\redis分布式锁资料.txt" />
+    <Content Include="ZooKeeperLock\ZooKeeper分布式锁资料.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ServiceStack.Common">
